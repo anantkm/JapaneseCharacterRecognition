@@ -1,0 +1,75 @@
+For Part 1 of the assignment you will be implementing networks to recognize handwritten
+Hiragana symbols. The dataset to be used is Kuzushiji-MNIST or KMNIST
+for short. The paper describing the dataset is available
+<a href="https://arxiv.org/pdf/1812.01718.pdf">here</a>.
+It is worth reading, but in short: significant changes occurred to the
+language when Japan reformed their education system in 1868, and the
+majority of Japanese today cannot read texts published over 150 years
+ago. This paper presents a dataset of handwritten, labeled examples of
+this old-style script (Kuzushiji). Along with this dataset, however,
+they also provide a much simpler one, containing 10 Hiragana
+characters with 7000 samples per class. This is the dataset we will be
+using.
+<figure>
+<img src="modern_vs_old.jpg" alt="" />
+<figcaption>
+Text from 1772 (left) compared to 1900 showing the standardization of written Japanese.
+</figcaption>
+</figure>
+<ol>
+<li> [1 mark] Implement a model <code>NetLin</code>
+which computes a linear function of the pixels in the image,
+followed by log softmax.
+Run the code by typing:
+<pre>
+python3 kuzu_main.py --net lin
+</pre>
+Copy the final accuracy and confusion matrix into your report.
+Note that the <strong>columns</strong> of the confusion matrix indicate the target character,
+while the <strong>rows</strong> indicate the one chosen by the network.
+(0="o", 1="ki", 2="su", 3="tsu", 4="na", 5="ha", 6="ma", 7="ya", 8="re", 9="wo").
+More examples of each character can be found
+<a href="http://codh.rois.ac.jp/kmnist/index.html.en">here</a>.
+<p>
+<li> [2 marks] Implement a fully connected 2-layer network
+<code>NetFull</code>,
+using tanh at the hidden nodes and log softmax at the output node.
+Run the code by typing:
+<pre>
+python3 kuzu_main.py --net full
+</pre>
+Try different values (multiples of 10) for the number of
+hidden nodes and try to determine a value that achieves
+high accuracy on the test set.
+Copy the final accuracy and confusion matrix into your report.
+<p>
+<li> [2 marks] Implement a convolutional network called
+<code>NetConv</code>, with two convolutional layers
+plus one fully connected layer, all using relu activation function,
+followed by the output layer.
+You are free to choose for yourself the number and size
+of the filters, metaparameter values,
+and whether to use max pooling or
+a fully convolutional architecture.
+Run the code by typing:
+<pre>
+python3 kuzu_main.py --net conv
+</pre>
+Your network should consistently achieve at least 93% accuracy
+on the test set after 10 training epochs.
+Copy the final accuracy and confusion matrix into your report.
+<p>
+<li> [7 marks]
+Discuss what you have learned from this exercise,
+including the following points:
+<ol type="a">
+<li> the relative accuracy of the three models,
+<li> the confusion matrix for each model: which characters
+are most likely to be mistaken for which other characters, and why?
+<li> you may wish to experiment with other architectures and/or
+metaparameters for this dataset, and report on your results;
+the aim of this exercise is not only to achieve high accuracy
+but also to understand the effect of different choices on the
+final accuracy.
+</ol>
+</ol>
