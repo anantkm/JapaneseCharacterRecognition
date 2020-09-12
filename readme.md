@@ -8,11 +8,6 @@
 <h2 align=center>COMP9444 Neural Networks and Deep Learning</h2>
 <h2 align=center>Term 2, 2020</h2>
 <H3 align=center>Project 1 - Japanese Characters and Intertwined Spirals</H3>
-<p align=center>
-Due: Sunday 12 July, 23:59 pm
-<br align=center>
-Marks: 30% of final assessment
-<p>
 In this assignment, you will be implementing and
 training various neural network models for
 two different classification tasks, and analysing the results.
