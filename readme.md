@@ -42,12 +42,6 @@ this old-style script (Kuzushiji). Along with this dataset, however,
 they also provide a much simpler one, containing 10 Hiragana
 characters with 7000 samples per class. This is the dataset we will be
 using.
-<figure>
-<img src="modern_vs_old.jpg" alt="" />
-<figcaption>
-Text from 1772 (left) compared to 1900 showing the standardization of written Japanese.
-</figcaption>
-</figure>
 <ol>
 <li>Implement a model <code>NetLin</code>
 which computes a linear function of the pixels in the image,
