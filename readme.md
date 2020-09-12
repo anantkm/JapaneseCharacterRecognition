@@ -63,7 +63,7 @@ while the <strong>rows</strong> indicate the one chosen by the network.
 More examples of each character can be found
 <a href="http://codh.rois.ac.jp/kmnist/index.html.en">here</a>.
 <p>
-<li> [2 marks] Implement a fully connected 2-layer network
+<li>Implement a fully connected 2-layer network
 <code>NetFull</code>,
 using tanh at the hidden nodes and log softmax at the output node.
 Run the code by typing:
@@ -75,7 +75,7 @@ hidden nodes and try to determine a value that achieves
 high accuracy on the test set.
 Copy the final accuracy and confusion matrix into your report.
 <p>
-<li> [2 marks] Implement a convolutional network called
+<li>Implement a convolutional network called
 <code>NetConv</code>, with two convolutional layers
 plus one fully connected layer, all using relu activation function,
 followed by the output layer.
