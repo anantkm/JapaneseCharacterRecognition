@@ -49,7 +49,7 @@ Text from 1772 (left) compared to 1900 showing the standardization of written Ja
 </figcaption>
 </figure>
 <ol>
-<li> [1 mark] Implement a model <code>NetLin</code>
+<li>Implement a model <code>NetLin</code>
 which computes a linear function of the pixels in the image,
 followed by log softmax.
 Run the code by typing:
