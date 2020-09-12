@@ -13,21 +13,10 @@ You are to submit two Python files
 <code>kuzu.py</code> and <code>spiral.py</code>,
 as well as a written report <code>hw1.pdf</code>
 (in <code>pdf</code> format).
-<p>
-<h3 id="provided-files">Provided Files</h3>
-<p>Copy the archive <a href="./hw1.zip"><code>hw1.zip</code></a> into your own filespace and unzip it. This should create a directory <code>hw1</code>
-with the data file <code>spirals.csv</code>
-as well as four Python files
-<code>kuzu.py</code>, <code>spiral.py</code>,
-<code>kuzu_main.py</code> and <code>spiral_main.py</code>.
-<p>Your task is to complete the skeleton files 
-<code>kuzu.py</code>, <code>spiral.py</code> and submit them,
-along with your report.
-<p>
 
-<h3 id="marking-scheme">Part 1: Japanese Character Recognition</h3>
+<h3 id="marking-scheme">Japanese Character Recognition</h3>
 
-For Part 1 of the assignment you will be implementing networks to recognize handwritten
+In this part of the assignment you will be implementing networks to recognize handwritten
 Hiragana symbols. The dataset to be used is Kuzushiji-MNIST or KMNIST
 for short. The paper describing the dataset is available
 <a href="https://arxiv.org/pdf/1812.01718.pdf">here</a>.
