@@ -4,18 +4,7 @@
 <BODY LANG="EN">
 <h2 align=center>COMP9444 Neural Networks and Deep Learning</h2>
 <h2 align=center>Project 1</h2>
-<H3 align=center>Japanese Characters and Intertwined Spirals</H3>
-In this assignment, you will be implementing and
-training various neural network models for
-two different classification tasks, and analysing the results.
-<p>
-You are to submit two Python files
-<code>kuzu.py</code> and <code>spiral.py</code>,
-as well as a written report <code>hw1.pdf</code>
-(in <code>pdf</code> format).
-
-<h3 id="marking-scheme">Japanese Character Recognition</h3>
-
+<H3 align=center>Japanese Character Recognition</H3>
 In this part of the assignment you will be implementing networks to recognize handwritten
 Hiragana symbols. The dataset to be used is Kuzushiji-MNIST or KMNIST
 for short. The paper describing the dataset is available
