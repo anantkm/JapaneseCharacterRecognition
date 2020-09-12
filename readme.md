@@ -1,9 +1,6 @@
 
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <HTML>
-<HEAD>
-<TITLE>COMP9444 Project 1</TITLE>
-</HEAD>
 <BODY LANG="EN">
 <h2 align=center>COMP9444 Neural Networks and Deep Learning</h2>
 <h2 align=center>Term 2, 2020</h2>
